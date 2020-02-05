@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(46, 46, 46);
+}
+
+#calculator-container{
+    width: 500px;
+    height: 600px;
+    border: 1px solid white;
+    margin-left: calc(50% - 300px/2);
+    margin-top: calc(10vh - 10px/2);
+    text-align: center;
+}
+
+#calculator-label{
+    width: 500px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+#calculator-label label{
+    background-color: grey;
+    color: white;
+}
+
+#calculator-display {
+    background-color: white;
+    margin-top: 5px;
+}
+
+#calculator-display-previous input{
+    width: 500px;
+    height: 50px;
+    color: black;
+    border: 0px;
+    padding: 0px;
+    text-align: right;
+    font-size: 30px;
+}
+
+#calculator-display-current input{
+    width: 500px;
+    height: 50px;
+    color: black;
+    border: 0px;
+    padding: 0px;
+    text-align: right;
+    font-size: 50px;
+}
+
+#calculator-buttons{
+    width: 500px;
+    height: 470px;
+    margin-top: 10px;
+}
+
+#number-buttons {
+    width: 270px;
+    height: 460px;
+    margin-top: 10px;
+    float: left;
+}
+
+#number-buttons button{
+    width: 75px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#number-buttons button:last-child{
+    width: 235px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#operator-buttons {
+    width: 220px;
+    height: 460px;
+    margin-top: 10px;
+    margin-right:10px;
+    float: right;
+}
+
+#operator-buttons button{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#operator-buttons button:last-child{
+    width: 205px;
+    height: 100px;
+    margin-top: 10px;
+}
